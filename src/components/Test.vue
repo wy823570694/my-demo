@@ -1,10 +1,11 @@
 <template>
-	<h2>我是关于内容</h2>
+	<h2>我是测试内容</h2>
+	<h2>this.$store.state.count</h2>
 </template>
 
 <script>
 	export default {
-		name:'About'
+		name:'Test'
 	}
 </script>
 

@@ -4,7 +4,7 @@ import Vant from "vant";
 import 'vant/lib/index.css';
 
 import Date from '../components/Date.vue'
-import About from '../components/About.vue'
+import Test from '../components/Test.vue'
 import Login from '../components/Login.vue'
 import Info from '../components/Info.vue'
 
@@ -18,8 +18,8 @@ const router = new VueRouter({
 			component:Date
 		},
 		{
-			path:'/About',
-			component:About
+			path:'/Test',
+			component:Test
 		},
 		{
 			path:'/Login',

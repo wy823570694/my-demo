@@ -5,15 +5,13 @@
 		  left-text="返回"
 		  right-text="主页"
 		  left-arrow
-		  @click-left="onClickLeft"
-		  @click-right="onClickRight"
 		/>
 		<router-view></router-view>
 		<van-tabbar route>
 		  <van-tabbar-item replace to="/Date" icon="wap-home-o">主页</van-tabbar-item>
 		  <van-tabbar-item replace to="/Login" icon="user-o">登陆</van-tabbar-item>
 			<van-tabbar-item replace to="/Info" icon="apps-o">应用</van-tabbar-item>
-			<van-tabbar-item replace to="/About" icon="setting-o">设置</van-tabbar-item>
+			<van-tabbar-item replace to="/Test" icon="setting-o">设置</van-tabbar-item>
 		</van-tabbar>
   </div>
 </template>
