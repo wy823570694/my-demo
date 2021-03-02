@@ -1,23 +1,17 @@
 <template>
   <div id="app">
-		<van-nav-bar
-		  title="标题"
-		  left-text="返回"
-		  right-text="主页"
-		  left-arrow
-		/>
-		<router-view></router-view>
-		<van-tabbar route>
-		  <van-tabbar-item replace to="/Date" icon="wap-home-o">主页</van-tabbar-item>
+		<router-view class="content"></router-view>
+		<van-tabbar>
+		  <van-tabbar-item replace to="/Home" icon="wap-home-o">主页</van-tabbar-item>
 		  <van-tabbar-item replace to="/Login" icon="user-o">登陆</van-tabbar-item>
-			<van-tabbar-item replace to="/Info" icon="apps-o">应用</van-tabbar-item>
+			<van-tabbar-item replace to="/App" icon="apps-o">应用</van-tabbar-item>
 			<van-tabbar-item replace to="/Test" icon="setting-o">设置</van-tabbar-item>
 		</van-tabbar>
   </div>
 </template>
 
 <script>
-
+	
 </script>
 
 <style>
@@ -41,5 +35,9 @@
 }
 body {
 	background-color: #f7f8fa;
+}
+.content {
+	margin-bottom: 50px;
+	margin-top:auto;
 }
 </style>

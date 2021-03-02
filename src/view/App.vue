@@ -1,5 +1,11 @@
 <template>
 	<div>
+		<van-nav-bar
+		  title="应用"
+		  left-text="返回"
+		  right-text="主页"
+		  left-arrow
+		/>
 		<h2 class="block-title">应用功能</h2>
 		<van-grid  square :border="false" icon-size=20px column-num="5">
 			<van-grid-item icon='location-o' text="位置"></van-grid-item>

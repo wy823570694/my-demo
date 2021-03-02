@@ -3,10 +3,10 @@ import Vue from 'vue'
 import Vant from "vant";
 import 'vant/lib/index.css';
 
-import Date from '../components/Date.vue'
-import Test from '../components/Test.vue'
-import Login from '../components/Login.vue'
-import Info from '../components/Info.vue'
+import Home from '../view/Home.vue'
+import Test from '../view/Test.vue'
+import Login from '../view/Login.vue'
+import App from '../view/App.vue'
 
 Vue.use(Vant);
 Vue.use(VueRouter)
@@ -14,8 +14,8 @@ Vue.use(VueRouter)
 const router = new VueRouter({
 	routes:[
 		{
-			path:'/Date',
-			component:Date
+			path:'/Home',
+			component:Home
 		},
 		{
 			path:'/Test',
@@ -26,8 +26,8 @@ const router = new VueRouter({
 			component:Login
 		},
 		{
-			path:'/Info',
-			component:Info
+			path:'/App',
+			component:App
 		}
 	]
 })
